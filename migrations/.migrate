@@ -1,0 +1,1 @@
+{"migrations":[{"title":"migrations/001-add_anotehr_field_to_db.js"},{"title":"migrations/002-add_anoeefads.js"},{"title":"migrations/003-make_something.js"},{"title":"migrations/004-make_something_coolor.js"},{"title":"migrations/005-add_date_to_post.js"},{"title":"migrations/006-add_date_to_post_again.js"}],"path":"migrations/.migrate","pos":6,"_events":{}}
