@@ -46,19 +46,6 @@ app.configure ->
 # public routes
 app.get '/', publicController.index
 
-app.get '/posts', (req, res) ->
-  req.models.post.find {}, (err, posts) ->
-    console.log err, posts
-    res.send posts
-
-app.get '/users', (req, res) ->
-  req.models.user.find {}, (err, users) ->
-    res.send users
-
-# app.post '/posts', (req, res) ->
-#   post = new req.models.post { title: 'foo', content: 'bar'}
-#   post.save (err) -> 
-#     res.send post
 
 # auth routes
 app.get '/signup', authController.newRegistration
@@ -67,6 +54,4 @@ app.get '/login', authController.newSession
 app.post '/login', authController.createSession
 app.get '/logout', authController.destroySession
 
-# TEMP
 module.exports = app
-# app.listen 3000

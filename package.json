@@ -9,8 +9,7 @@
     "orm": "*",
     "passport": "0.1.17",
     "passport-local": "0.1.6",
-    "bcrypt": "0.7.6",
-    "migrate": "*"
+    "bcrypt": "0.7.6"
   },
   "devDependencies": {
      "grunt": "~0.4.0rc7",
